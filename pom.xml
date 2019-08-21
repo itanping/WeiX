@@ -22,7 +22,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <!-- 编译时的编码 -->
         <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
-        <springframework.version>4.3.9.RELEASE</springframework.version>
+        <springframework.version>4.3.18.RELEASE</springframework.version>
         <servlet-api.ver>2.5</servlet-api.ver>
     </properties>
 
@@ -34,7 +34,7 @@
             <version>2.6</version>
         </dependency>
 
-        <!-- .............................. spring .............................. -->
+        <!-- .................................................... spring .......................................... -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
@@ -66,33 +66,21 @@
             <version>${springframework.version}</version>
             <scope>test</scope>
         </dependency>
-        <!-- .............................. spring .............................. -->
+        <!-- .................................................... spring .......................................... -->
 
+        <!-- .................................................... alibaba ......................................... -->
         <dependency>
             <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo</artifactId>
             <version>2.7.1</version>
         </dependency>
 
-        <!-- .............................. alibaba .............................. -->
-        <!--<dependency>-->
-            <!--<groupId>com.alibaba</groupId>-->
-            <!--<artifactId>dubbo</artifactId>-->
-            <!--<version>2.5.3</version>-->
-            <!--<exclusions>-->
-                <!--<exclusion>-->
-                    <!--<groupId>org.springframework</groupId>-->
-                    <!--<artifactId>spring</artifactId>-->
-                <!--</exclusion>-->
-            <!--</exclusions>-->
-        <!--</dependency>-->
-
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>1.2.15</version>
+            <version>1.2.31</version>
         </dependency>
-        <!-- .............................. alibaba .............................. -->
+        <!-- .................................................... alibaba ......................................... -->
 
         <!-- https://mvnrepository.com/artifact/com.alibaba.csp/sentinel-core -->
         <dependency>
@@ -111,13 +99,13 @@
             <version>1.6.1</version>
         </dependency>
 
-        <!-- .............................. 日志 .............................. -->
+        <!-- ..................................................... 日志 ........................................... -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
             <version>1.7.9</version>
         </dependency>
-        <!-- .............................. 日志 .............................. -->
+        <!-- ..................................................... 日志 ........................................... -->
 
         <dependency>
             <groupId>javax.servlet</groupId>
