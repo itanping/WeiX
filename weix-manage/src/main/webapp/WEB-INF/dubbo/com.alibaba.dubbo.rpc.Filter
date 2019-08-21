@@ -1,0 +1,1 @@
+hystrixFilter=com.weix.manage.filter.hystrix.HystrixFilter
